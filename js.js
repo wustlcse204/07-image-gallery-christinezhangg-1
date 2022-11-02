@@ -22,7 +22,8 @@ function bigimage() {
 }
 
 //Third function will focus on the right arrow moving from picture to picture.
-//Simply just the javascript, will not work unlike the top two functions.  This is because I have not yet set up the final image structure.  
+//Simply just the Javascript, not implemented unlike the top two functions.  This is because I have not yet set up the final image structure.  
+//However, this exact Javascript function will be used in my final submission once everything else is set up.  
 right.addEventListener("click", moveright);
 function moveright() {
     if (imageId == 11){
