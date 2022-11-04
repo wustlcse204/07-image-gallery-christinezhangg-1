@@ -17,8 +17,12 @@ for (i = 0; i < images.length; ++i){
     images[i].addEventListener("click", bigimage);
 }
 function bigimage() {
-    this.style.width = '200%';
-    this.style.height = 'auto';
+    if (i){
+        this.style.width = '200%';
+        this.style.height = 'auto';
+    } else {
+        this.style.display = "none";
+    }
 }
 
 //Third function will focus on the right arrow moving from picture to picture.
