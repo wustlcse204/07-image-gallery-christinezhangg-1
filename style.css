@@ -58,33 +58,23 @@
     padding: 10px;
 }
 
-#leftarrow {
-    display: flex;
-    float: left;
-    margin-top: 425px;
-    visibility: hidden;
+.holderpage {
+    position: fixed;
+    display: none;
+    left:434px;
+    top:90px;
+    justify-content: center;
+    width: 100%;
 }
 
-#rightarrow {
-    display: flex;
-    position: relative;
-    float: right;
-    justify-content: right;
-    bottom: 495px;
-    visibility: hidden;
-}
-
-#x-mark {
-    display: flex;
-    position: relative;
-    float: right;
-    justify-content: right;
-    bottom: 890px;
-    left: 160px;
-    visibility: hidden;
-}
-
-
+.closebtn {
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    color:black;
+    font-size: 50px;
+    cursor: pointer;
+  }
 
 
 
