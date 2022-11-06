@@ -67,15 +67,32 @@
     width: 100%;
 }
 
-.closebtn {
+.close {
     position: fixed;
-    top: 20px;
+    top: 40px;
     right: 0px;
     color:black;
     font-size: 50px;
     cursor: pointer;
-  }
+}
 
+.left {
+    position: fixed;
+    top: 350px;
+    left: 0px;
+    color:black;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.right {
+    position: fixed;
+    top: 350px;
+    right: 0px;
+    color:black;
+    font-size: 50px;
+    cursor: pointer;
+}
 
 
 
