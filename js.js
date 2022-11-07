@@ -13,26 +13,22 @@ function bigimage(imgs) {
 }
 
 function moveleft() {
-    for (i = 0; i < images.length; ++i){
-        if (imageId == 0){
-            imageId = 11;
-            bigimage(imageId);
-        } else {
-            imageId -= 1;
-            bigimage(imageId);
-        }
+    if (imageId == 1){
+        imageId = 12;
+        bigimage(imageId);
+    } else {
+        imageId -= 1;
+        bigimage(imageId);
     }
 }
 
 function moveright() {
-    for (i = 0; i < images.length; ++i){
-        if (imageId == 11){
-            imageId = 0;
-            bigimage(imageId);
-        } else {
-            imageId += 1;
-            bigimage(imageId);
-        }
+    if (imageId == 12){
+        imageId = 1;
+        bigimage(imageId);
+    } else {
+        imageId += 1;
+        bigimage(imageId);
     }
 }
 
